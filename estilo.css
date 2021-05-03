@@ -1,0 +1,200 @@
+.dtitulo
+{
+	position: absolute;
+	background-color: black;
+	opacity: 50%;
+	text-align: center;
+	font-style: oblique;
+	border-radius: 8px;
+	font-size: 35px;
+	width: 24%;
+	left: 35%;
+	padding: 4%;
+	transition: all 1s;
+
+	-webkit-box-shadow: 8px 8px 11px #999;       /* -SOMBRA- */
+    -moz-box-shadow: 2px 2px 5px #999;
+	z-index: 100%;
+}
+.fondo
+{
+	position: fixed;
+    height: 101%;
+    width: 100%;
+    right: 0%;
+    top: -1%;
+}
+
+
+.titulo
+{
+	position: absolute;
+	font-style: oblique;
+	color: white;
+	border-radius: 8px;
+	font-size: 35px;
+	width: 24%;
+	top: 5.5%;
+	left: 46%;
+	transition: all 1s;
+}
+
+.dparrafo1
+{
+	position: absolute;
+	background-color: black;
+	opacity: 60%;
+	font-style: oblique;
+	text-align: left;
+	border-radius: 8px;
+	padding: 2%;
+	width: 20%;
+	height: 33%;
+	top: 25%;
+	left: 20%;
+	transition: all 1s;
+
+	-webkit-box-shadow: 8px 8px 11px #999;       /* -SOMBRA- */
+    -moz-box-shadow: 2px 2px 5px #999;
+	z-index: 100%;
+}
+
+.parrafo1
+{
+	position: absolute;
+	font-style: oblique;
+	text-align: left;
+	color: white;
+	padding: 2%;
+	width: 20%;
+	height: 33%;
+	top: 25%;
+	left: 20%;
+	transition: all 1s;
+}
+
+
+.dparrafo2
+{
+	position: absolute;
+	background-color: black;
+	opacity: 60%;
+	font-style: oblique;
+	text-align: left;
+	border-radius: 8px;
+	padding: 2%;
+	width: 20%;
+	height: 33%;
+	top: 25%;
+	left: 57%;
+	transition: all 1s;
+
+	-webkit-box-shadow: 8px 8px 11px #999;       /* -SOMBRA- */
+    -moz-box-shadow: 2px 2px 5px #999;
+	z-index: 100%;
+}
+
+.parrafo2
+{
+	position: absolute;
+	font-style: oblique;
+	color: white;
+	text-align: left;
+	padding: 2%;
+	width: 20%;
+	top: 25%;
+	left: 57%;
+	transition: all 1s;
+}
+
+.foto
+{
+	position: absolute;
+	border-radius: 10px;
+	top: 70%;
+	left: 25%;
+	width: 50%;
+	height: 80%;
+	transition: all 1s;
+}
+
+@media only screen and (max-width: 1000px)
+	{
+		body
+		{
+			transition: all 1s;
+		}
+
+		.dparrafo1
+		{
+			height: 44%;
+		}
+
+		.dparrafo2
+		{
+			height: 47%;
+		}
+
+
+		.foto
+		{
+			top: 83%;
+		}
+
+
+@media only screen and (max-width: 500px)
+	{
+		body
+		{
+			transition: all 1s;
+		}
+
+		.dtitulo
+		{
+			height: 10%;
+			left: 37%;
+		}
+
+		.titulo
+		{
+			top: 3%;
+		}
+
+		.parrafo1
+		{
+			left: 33%;
+			width: 35%;
+			height: 44%;
+		}
+
+		.dparrafo1
+		{
+			left: 33%;
+			width: 35%;
+			height: 44%;
+		}
+
+		.parrafo2
+		{
+			left: 33%;
+			top: 74%;
+			width: 35%;
+			height: 49%;
+		}
+
+		.dparrafo2
+		{
+			left: 33%;
+			top: 74%;
+			width: 35%;
+			height: 49%;
+		}
+
+		.foto
+		{
+			top: 128%;
+			width: 40%;
+			height: 30%;
+			left: 32%;
+		}
+	}
